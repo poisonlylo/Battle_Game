@@ -67,6 +67,8 @@
     <Compile Include="Assets/Dossier FPS final/Scripts FPS/NavScriptRobot.cs" />
     <Compile Include="Assets/Dossier FPS final/Scripts FPS/PlayerCollision.cs" />
     <Compile Include="Assets/Dossier FPS final/Scripts FPS/TurretScript.cs" />
+    <Compile Include="Assets/scripts/PlayerScripts/Sprint_Courch.cs" />
+    <Compile Include="Assets/scripts/PlayerScripts/footsteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Shaders/Standard/_Antialiasing/FXAAPreset2.shader" />
