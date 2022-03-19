@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSprintAndCrouch : MonoBehaviour
+public class Sprint_Courch : MonoBehaviour
 {
 
     private playerMovement playerMovement;
@@ -35,7 +35,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     void Awake()
     {
 
-       // playerMovement = GetComponent<PlayerMovement>();
+        playerMovement = GetComponent<playerMovement>();
 
         look_Root = transform.GetChild(0);
 
@@ -44,12 +44,14 @@ public class PlayerSprintAndCrouch : MonoBehaviour
      //   player_Stats = GetComponent<PlayerStats>();
 
     }
-    void Start()
-    {
+
+
+  //  void Start()
+  //  {
      //   player_Footsteps.volume_Min = walk_Volume_Min;
       //  player_Footsteps.volume_Max = walk_Volume_Max;
       //  player_Footsteps.step_Distance = walk_Step_Distance;
-    }
+   // }
 
     // Update is called once per frame
     void Update()
@@ -62,8 +64,8 @@ public class PlayerSprintAndCrouch : MonoBehaviour
     {
 
         // if we have stamina we can sprint
-        if (sprint_Value > 0f)
-        {
+      //  if (sprint_Value > 0f)
+      //  {
 
             if (Input.GetKeyDown(KeyCode.LeftShift) && !is_Crouching)
             {
@@ -76,7 +78,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 
             }
 
-        }
+  //      }
 
         if (Input.GetKeyUp(KeyCode.LeftShift) && !is_Crouching)
         {
@@ -89,7 +91,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.LeftShift) && !is_Crouching)
+    /*  if (Input.GetKey(KeyCode.LeftShift) && !is_Crouching)
         {
 
             sprint_Value -= sprint_Treshold * Time.deltaTime;
@@ -99,21 +101,21 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 
                 sprint_Value = 0f;
 
-                // reset the speed and sound
+                 reset the speed and sound
                 playerMovement.speed = move_Speed;
-             //   player_Footsteps.step_Distance = walk_Step_Distance;
-             //   player_Footsteps.volume_Min = walk_Volume_Min;
-             //   player_Footsteps.volume_Max = walk_Volume_Max;
+                player_Footsteps.step_Distance = walk_Step_Distance;
+                player_Footsteps.volume_Min = walk_Volume_Min;
+                player_Footsteps.volume_Max = walk_Volume_Max;
 
 
             }
 
-          //  player_Stats.Display_StaminaStats(sprint_Value);
+            player_Stats.Display_StaminaStats(sprint_Value);
 
         }
         else
         {
-
+    
             if (sprint_Value != 100f)
             {
 
@@ -128,7 +130,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour
 
             }
 
-        }
+        } */
 
 
     } // sprint
