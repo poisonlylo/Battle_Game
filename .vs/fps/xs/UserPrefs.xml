@@ -1,23 +1,32 @@
 ﻿<Properties StartupConfiguration="{E3769A4A-A57B-5F3D-E641-46FBEEDD8C4F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/PlayerScripts/footsteps.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Camera_change.cs">
     <Files>
+      <File FileName="Assets/scripts/PlayerScripts/footsteps.cs" Line="5" Column="15" />
+      <File FileName="Assets/scripts/PlayerScripts/Sprint_Courch.cs" Line="70" Column="51" />
       <File FileName="Assets/scripts/PlayerScripts/playerMovement.cs" Line="29" Column="9" />
       <File FileName="Assets/scripts/helper Scripts/tagHolder.cs" Line="9" Column="2" />
       <File FileName="Assets/scripts/PlayerScripts/MouseLook.cs" Line="94" Column="81" />
-      <File FileName="Assets/scripts/PlayerScripts/Sprint_Courch.cs" Line="165" Column="17" />
-      <File FileName="Assets/scripts/PlayerScripts/footsteps.cs" Line="108" Column="1" />
+      <File FileName="Assets/scripts/Camera_change.cs" Line="20" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="fps" expanded="True" selected="True" />
+          <Node name="fps" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="helper Scripts" expanded="True" />
+                <Node name="PlayerScripts" expanded="True" />
+                <Node name="Camera_change.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0086277-104d-428f-9b6c-cfc638a9121c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="08af6fd9-83ea-4eb8-a943-9ac2631ac78d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

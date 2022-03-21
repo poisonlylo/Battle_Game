@@ -140,12 +140,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
   controlID: 41
+=======
+    width: 1440
+    height: 850
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 2716
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +179,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 2717
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +208,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 2718
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,11 +230,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 403
     height: 596
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    width: 259
+    height: 535
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
   m_Panes:
   - {fileID: 16}
   m_Selected: 0
@@ -239,11 +264,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403
     y: 0
+<<<<<<< HEAD
     width: 964
     height: 596
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+    width: 790
+    height: 535
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
   m_Panes:
   - {fileID: 17}
   - {fileID: 15}
@@ -295,11 +328,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1367
     y: 0
+<<<<<<< HEAD
     width: 553
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
+=======
+    width: 391
+    height: 850
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
@@ -613,9 +654,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: d0860000
       m_LastClickedID: 0
       m_ExpandedIDs: 94f9ffffaafaffff72fbffff643e0000723e00008e3e0000
+=======
+      m_SelectedIDs: b23d0000
+      m_LastClickedID: 15794
+      m_ExpandedIDs: 70fbffff843d0000923d0000
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -793,22 +840,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts/PlayerScripts
+    - Assets/Sounds/Footsteps
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts/PlayerScripts
+  - Assets/Sounds/Footsteps
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jonat\OneDrive\Bureau\unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 381.08594}
     m_SelectedIDs: 243e0000
     m_LastClickedID: 15908
     m_ExpandedIDs: 00000000da3d0000dc3d0000de3d0000e03d0000e23d0000e43d0000e63d0000ec3d0000f43d0000fc3d000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 162}
+    m_SelectedIDs: 42840000
+    m_LastClickedID: 33858
+    m_ExpandedIDs: 00000000684b00006a4b00006c4b00006e4b0000704b0000a04b0000
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +890,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000da3d0000dc3d0000de3d0000e03d0000e23d0000e43d0000e63d0000e83d0000ea3d0000ec3d0000ee3d0000
+=======
+    m_ExpandedIDs: 00000000684b00006a4b00006c4b00006e4b0000704b0000a04b0000
+>>>>>>> 26453003bca467823f4856d2ac8880be7d76e2b8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -888,7 +946,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 146}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
